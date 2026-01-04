@@ -19,30 +19,28 @@ A beautiful and customizable day progress tracker for macOS that lives in your m
 - Toggle between time remaining or percentage display
 - System theme support (auto light/dark mode)
 
-🎨 **Beautiful Design**
-- Rounded progress bar with smooth animations
-- Card-based time info display
-- Native macOS appearance
-- Liquid glass design elements
-
-🚀 **Menu Bar Only**
-- No dock icon clutter
-- Quick access from menu bar
-- Persistent settings
-- Minimal resource usage
-
 ## Screenshots
 
 ### Menu Bar
 The progress bar shows your day's progress at a glance with remaining time or percentage.
 
+<img width="125" height="30" alt="Screenshot 2026-01-04 at 20 30 00" src="https://github.com/user-attachments/assets/adf2ad85-42b4-40f6-a898-e0846372ac24" />
+
 ### Popup View
 Click the menu bar icon to see detailed progress with elapsed and remaining time in beautiful cards.
+<img width="334" height="493" alt="Screenshot 2026-01-04 at 20 30 16" src="https://github.com/user-attachments/assets/1f712cb0-3dc9-4b1d-a57b-7c8380dc7ed3" />
 
 ### Settings
 Customize your experience with color themes, display modes, and custom work hours.
+<img width="477" height="558" alt="Screenshot 2026-01-04 at 20 27 43" src="https://github.com/user-attachments/assets/94f43279-483f-4322-9811-a7332e5eb776" />
 
 ## Installation
+
+### DMG
+
+You can download DM from the [releases](https://github.com/berkaygure/time-progress/releases) page.
+
+### Manuel
 
 1. Clone this repository
 2. Open `time-progress.xcodeproj` in Xcode
@@ -55,14 +53,6 @@ Customize your experience with color themes, display modes, and custom work hour
 - Xcode 15.0 or later
 - Swift 5.9 or later
 
-## Usage
-
-### First Launch
-1. Click the menu bar icon
-2. Open Settings
-3. Set your work hours (default: 9 AM - 5 PM)
-4. Choose your preferred color and display mode
-
 ### Features Explained
 
 **Display Modes:**
@@ -73,41 +63,6 @@ Customize your experience with color themes, display modes, and custom work hour
 - System (adapts to light/dark mode)
 - Blue, Purple, Pink, Red, Orange, Yellow, Green, Teal
 - Blue-Purple Gradient
-
-## Project Structure
-
-```
-time-progress/
-├── time_progressApp.swift      # Main app entry point
-├── AppDelegate.swift            # Menu bar management
-├── DayProgressManager.swift     # Progress calculation logic
-├── MenuBarView.swift            # Popup view
-├── SettingsView.swift           # Settings interface
-└── ContentView.swift            # Initial view (unused)
-```
-
-## Technical Details
-
-### Architecture
-- **SwiftUI** for modern UI
-- **AppKit** for menu bar integration
-- **Combine** for reactive updates
-- **UserDefaults** for persistent settings
-
-### Key Components
-- Real-time progress calculation
-- Custom NSStatusItem with attributed strings
-- Gradient and solid color support
-- Popover with delegate pattern
-- Theme-aware color system
-
-## Configuration
-
-All settings are automatically saved and persisted:
-- Start time
-- End time
-- Progress bar color
-- Display mode (time/percentage)
 
 ## Building from Source
 
@@ -143,14 +98,4 @@ Contributions are welcome! Feel free to:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Credits
 
-Created by Berkay Güre - January 2026
-
-## Support
-
-If you find this app useful, please star the repository! ⭐
-
----
-
-**Note**: This is a menu bar-only application. It will not appear in your Dock or application switcher.
