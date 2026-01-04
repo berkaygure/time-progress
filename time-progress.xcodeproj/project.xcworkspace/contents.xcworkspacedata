@@ -10,4 +10,37 @@
    <FileRef
       location = "group:LICENSE">
    </FileRef>
+   <FileRef
+      location = "group:build-release.sh">
+   </FileRef>
+   <FileRef
+      location = "group:homebrew-formula-template.rb">
+   </FileRef>
+   <FileRef
+      location = "group:DISTRIBUTION.md">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:CHANGELOG.md">
+   </FileRef>
+   <FileRef
+      location = "group:QUICKSTART.md">
+   </FileRef>
+   <FileRef
+      location = "group:DISTRIBUTION-READY.md">
+   </FileRef>
+   <FileRef
+      location = "group:init-git.sh">
+   </FileRef>
+   <FileRef
+      location = "group:START-HERE.md">
+   </FileRef>
+   <FileRef
+      location = "group:create-icon.swift">
+   </FileRef>
+   <FileRef
+      location = "group:APP-ICON-GUIDE.md">
+   </FileRef>
 </Workspace>
