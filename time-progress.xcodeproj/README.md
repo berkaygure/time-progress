@@ -113,7 +113,7 @@ All settings are automatically saved and persisted:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/time-progress.git
+git clone https://github.com/berkaygure/time-progress.git
 
 # Open in Xcode
 cd time-progress
