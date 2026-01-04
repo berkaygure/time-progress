@@ -43,4 +43,10 @@
    <FileRef
       location = "group:APP-ICON-GUIDE.md">
    </FileRef>
+   <FileRef
+      location = "group:build-release-fixed.sh">
+   </FileRef>
+   <FileRef
+      location = "group:setup-project.sh">
+   </FileRef>
 </Workspace>
