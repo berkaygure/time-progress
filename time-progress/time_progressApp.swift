@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct time_progressApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        // Settings window (can be opened from menu)
+        Settings {
+            SettingsView()
         }
     }
 }
