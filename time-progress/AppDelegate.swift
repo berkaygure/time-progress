@@ -138,7 +138,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
             // For gradient, use blue for border
             borderColor = NSColor.systemBlue
         } else {
-            borderColor = selectedColor.nsColor(isDarkMode: isDarkMode)
+            borderColor = selectedColor.nsColor(isDarkMode: !isDarkMode)
         }
         
         let image = NSImage(size: NSSize(width: barWidth, height: barHeight), flipped: false) { rect in
