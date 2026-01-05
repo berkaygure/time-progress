@@ -1,6 +1,6 @@
 cask "time-progress" do
   version "1.0.1"
-  sha256 "79bb0c9f753377553170b8c574112ba908f0325dfbe0b079e41c3d1f32bdbc15"
+  sha256 "f5e685ef81c0eea547bfb3a7860c284f560ef0bfe7ba80292e7acb4b2b576bc1"
 
   url "https://github.com/berkaygure/time-progress/releases/download/v#{version}/TimeProgress-#{version}.zip"
   name "Time Progress"
