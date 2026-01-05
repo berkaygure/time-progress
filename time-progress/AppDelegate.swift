@@ -126,8 +126,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
         let padding: CGFloat = 2
         let borderWidth: CGFloat = 1
         
-        // Check if dark mode is enabled
-        let isDarkMode = NSApp.effectiveAppearance.bestMatch(from: [.darkAqua, .aqua]) == .darkAqua
+        // Check if dark mode is enabled (properly detect system appearance)
+        let appearance = NSApp.effectiveAppearance
+        let isDarkMode = appearance.name == .darkAqua || appearance.name == .vibrantDark || appearance.name == .accessibilityHighContrastDarkAqua
         
         // Get selected color
         let selectedColor = self.progressManager.progressBarColor
